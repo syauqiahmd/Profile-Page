@@ -28,7 +28,19 @@ body,html{
 }
 .link-group{
   margin-top: 100px; 
+  margin-bottom: 50px; 
   a {
-    margin: 0 15px;
+    text-decoration: none;
+    img {
+      width: 60px;
+      margin: 20px 15px;
+    }
+    // &:hover{
+    //   font-size: 1.5em;
+    //   margin: 0 50px;
+    //   img {
+    //     width: 80px;
+    //   }
+    // }
   }
 }
