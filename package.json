@@ -1,0 +1,37 @@
+{
+  "name": "profile-page",
+  "version": "1.0.0",
+  "description": "personal page with github page",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syauqiahmd/Profile-Page.git"
+  },
+  "keywords": [
+    "profile",
+    "page"
+  ],
+  "author": "ahmad syauqi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syauqiahmd/Profile-Page/issues"
+  },
+  "homepage": "https://github.com/syauqiahmd/Profile-Page#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-flatten": "^0.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "webpack-stream": "^5.2.1"
+  }
+}
