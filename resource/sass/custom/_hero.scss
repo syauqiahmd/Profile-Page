@@ -1,10 +1,15 @@
 //hero css
 body,html{
-  height: 100vh;
+  min-height: 100%;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+.brand-custom{
+  font-family: 'Roboto Slab', serif; 
 }
 .hero-img{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-img.jpg");;
-  height: 100vh;
+  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,9 +17,18 @@ body,html{
 }
 .hero-content{
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // position: absolute;
+  // top : 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
   color: white;
+  h1{
+    font-family: 'Roboto Slab', serif; 
+  }
+}
+.link-group{
+  margin-top: 100px; 
+  a {
+    margin: 0 15px;
+  }
 }
