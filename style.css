@@ -1,0 +1,56 @@
+/* write your code here */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-box {
+  background: #7FBCD2;
+  text-align: center;
+  padding: 40px 150px;
+  color: #fff;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 10px 15px 10px rgba(234, 223, 221, 0.5);
+}
+
+.profile-picture {
+  background: #fff;
+  width: 200px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.link-items{
+  margin-top: 40px;
+  background: #fff;
+  padding:  40px 0;
+  margin-right: -150px;
+  margin-left: -150px;
+  margin-bottom: -40px;
+  border-radius: 25px;
+}
+
+.link-items > a{
+  text-transform: none;
+  margin: 20px;
+}
+
+.link-items > a >img{
+  width: 30px;
+  filter: invert(40%);
+}
